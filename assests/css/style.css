@@ -1,0 +1,100 @@
+:root {
+  --body-color: #999;
+  --primary-color: #f04770;
+}
+body {
+  font-family: "Khula", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.625;
+  color: var(--body-color);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Khula", sans-serif;
+  color: #373737;
+}
+.container-fluid {
+  max-width: 1170px;
+}
+/* button */
+.traffic-btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 14px 32px;
+  line-height: 1.5;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+}
+
+.traffic-btn-primary:hover {
+  color: #fff;
+}
+
+/* primary-menu */
+ul.primary-menu li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #999;
+  padding: 15px;
+}
+
+ul.primary-menu li a:hover {
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+/* banner-section */
+
+.banner-section {
+  padding: 176px 0 156px 0;
+}
+
+.banner-text h1 {
+  margin-bottom: 6px;
+  line-height: 1.15;
+}
+.banner-text p {
+  margin-bottom: 34px;
+}
+.banner-form .traffic-btn-primary {
+  margin-left: 16px;
+}
+
+/* banner-end */
+/* service-section-start */
+.card {
+  width: 400px;
+  height: auto;
+}
+.card-body .icon {
+  font-size: 25px;
+}
+.card-body a {
+  display: inline-block;
+  text-decoration: none;
+
+  font-weight: 400;
+}
+
+/* service-section-end */
+
+/* default-input-style */
+.traffic-form-control {
+  border: 1px solid #efefef;
+  padding: 16px 22px;
+  max-height: 46px;
+  border-radius: 4px;
+  outline: none;
+}
+.traffic-form-control:focus {
+  border-color: var(--primary-color);
+}
