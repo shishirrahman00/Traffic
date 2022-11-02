@@ -351,20 +351,29 @@ ul.primary-menu li a:hover {
   margin-top: 34px;
 }
 
-.signup form input {
-  padding: 12px 16px;
+.signup form input[type="email"] {
+  padding: 12px 26px;
   border: none;
   background: #f6f6f6;
-  border-radius: 0.375rem;
+  border-radius: 0.375rem 0 0 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.signup form input[type="submit"] {
+  padding: 12px 26px;
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 400;
+  border-radius: 0 0.375rem 0.375rem 0;
+  position: absolute;
+  top: 0;
+  left: 216px;
 }
 
 .signup form input:focus {
   outline: none;
-}
-
-.signup form .traffic-btn-primary {
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
 }
 
 .social-handle {
@@ -376,10 +385,12 @@ ul.primary-menu li a:hover {
 }
 .social a {
   text-decoration: none;
-  flex-basis: 33%;
+  flex-basis: 32%;
+  color: var(--body-color);
 }
 .social a i {
   margin-right: 10px;
   display: inline-block;
+  color: #222;
 }
 /* footer-container-end */ ;
