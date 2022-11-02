@@ -42,8 +42,10 @@ h6 {
   background-color: var(--primary-color);
   color: #fff;
   font-size: 0.875rem;
+  font-weight: 400;
   padding: 14px 32px;
   line-height: 1.5;
+  display: inline-block;
   text-decoration: none;
   border-radius: 4px;
   border: none;
@@ -93,53 +95,53 @@ ul.primary-menu li a:hover {
   margin-bottom: 100px;
 }
 
-.card,
-.box {
-  width: 370px;
-  height: 320px;
+.service-card {
+  padding: 40px 18px 36px 18px;
   margin-bottom: 50px;
   cursor: pointer;
+  border: 1px solid var(--body-color);
+  border-radius: 0.375rem;
 }
 
-.card-body .icon span {
-  font-size: 2.375rem;
-  margin: 20px 0 10px 0;
+.service-card-body .icon span {
+  font-size: 2.3rem;
   color: #373737;
 }
 
-.card-body a {
+.service-card-body a {
   display: inline-block;
   text-decoration: none;
   color: #373737;
   font-weight: 400;
 }
 
-.card-body h4 {
-  margin-top: 18px;
+.service-card-body h4 {
+  margin-top: 22px;
 }
 
-.card-body p {
-  margin: 18px 0 30px 0;
+.service-card-body p {
+  margin-top: 18px;
   line-height: 1.73;
 }
-.card-text a {
+.service-card-text a {
   position: relative;
+  margin-top: 14px;
 }
 
-.card-text a span {
+.service-card-text a span {
   font-size: 11px;
   position: absolute;
-  top: 4px;
+  top: 5px;
   left: 82px;
 }
 
-.card:hover {
+.service-card:hover {
   border-color: var(--primary-color);
 }
 
-.card:hover .icon span,
-.card:hover .card-text h4,
-.card:hover .card-text a {
+.service-card:hover .icon span,
+.service-card:hover .service-card-text h4,
+.service-card:hover .service-card-text a {
   color: var(--primary-color);
   transition: all 0.3s;
 }
@@ -174,6 +176,8 @@ ul.primary-menu li a:hover {
 .box {
   border-radius: 0.375rem;
   position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 .hover-title h4 {
   margin-top: 38px;
@@ -192,7 +196,7 @@ ul.primary-menu li a:hover {
   color: #fff;
 }
 .hover-arrow a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   color: #222;
@@ -224,7 +228,153 @@ ul.primary-menu li a:hover {
 /* case-study-end */
 
 /* carousel-start */
-.carousel {
-  height: 60vh;
+.slider-section {
+  padding: 110px 0 118px 0;
 }
+.slider-image {
+  margin-top: 36px;
+}
+
+.slider-image figcaption {
+  font-size: 1.125rem;
+  color: #222;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.slider-image img {
+  width: 80px;
+  /* height: auto; */
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider-image p {
+  font-size: 0.875rem;
+  margin-top: 8px;
+}
+
+.blockquote p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #222;
+  font-weight: 400;
+}
+
 /* carousel-end */
+
+/* marketing-section-start */
+.marketing-section {
+  background-color: #fbfbfb;
+  padding: 64px 0;
+}
+
+/* marketing-section-end */
+
+/* pricing-start */
+.pricing {
+  padding: 120px 0 124px 0;
+}
+.service-header p {
+  margin-bottom: 92px;
+}
+
+.pricing-card {
+  border: 1px solid var(--body-color);
+  border-radius: 0.375rem;
+  padding: 32px 44px 36px 46px;
+}
+
+.pricing-card h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.pricing-card h1 {
+  font-size: 3.125rem;
+  color: var(--primary-color);
+  margin-top: 14px;
+}
+
+.pricing-card span {
+  display: block;
+  font-size: 0.875rem;
+  margin-top: -11px;
+  margin-bottom: 32px;
+}
+
+.pricing-card p {
+  font-size: 1.0625rem;
+}
+
+.pricing-body {
+}
+
+.pricing-button {
+  margin-top: 44px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 130px;
+  cursor: pointer;
+}
+
+/* pricing-end */
+
+/* footer-container-start */
+.footer-content {
+  padding: 106px;
+  background-color: #fbfbfb;
+}
+
+.product-side ul {
+  list-style: none;
+  margin-top: 22px;
+}
+
+.product-side li {
+  margin-bottom: 6px;
+}
+
+.product-side li a {
+  text-decoration: none;
+  color: var(--body-color);
+}
+
+.signup {
+  position: relative;
+  margin-top: 34px;
+}
+
+.signup form input {
+  padding: 12px 10px;
+  border: none;
+  background: #f6f6f6;
+  border-radius: 0.375rem;
+}
+
+.signup form input:focus {
+  outline: none;
+}
+
+.signup form .traffic-btn-primary {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+
+.social-handle {
+}
+
+.social {
+}
+.social a {
+  text-decoration: none;
+}
+.social a i {
+  margin-right: 10px;
+}
+/* footer-container-end */ ;
