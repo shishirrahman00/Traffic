@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  max-width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -348,7 +352,7 @@ ul.primary-menu li a:hover {
 }
 
 .signup form input {
-  padding: 12px 10px;
+  padding: 12px 16px;
   border: none;
   background: #f6f6f6;
   border-radius: 0.375rem;
@@ -361,20 +365,21 @@ ul.primary-menu li a:hover {
 .signup form .traffic-btn-primary {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
-  position: absolute;
-  top: 0;
-  left: 200px;
 }
 
 .social-handle {
 }
 
 .social {
+  display: flex;
+  flex-wrap: wrap;
 }
 .social a {
   text-decoration: none;
+  flex-basis: 33%;
 }
 .social a i {
   margin-right: 10px;
+  display: inline-block;
 }
 /* footer-container-end */ ;
