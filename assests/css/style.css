@@ -1,7 +1,9 @@
 :root {
   --body-color: #999;
   --primary-color: #f04770;
+  --home-2-color: #2ecc71;
 }
+
 body {
   font-family: "Khula", sans-serif;
   font-weight: 300;
@@ -440,33 +442,6 @@ hr.first-hr {
 
 /*---------------------------------- HOme-2 Css start------------------- */
 
-:root {
-  --body-color: #999999;
-  --primary-color: #2ecc71;
-}
-
-body {
-  font-family: "Khula", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.625;
-  color: var(--body-color);
-  overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Khula", sans-serif;
-}
-
 .container {
   max-width: 1170px;
 }
@@ -481,7 +456,7 @@ h6 {
 
 .score-card input[type="submit"],
 .default-btn-primary {
-  background-color: var(--primary-color);
+  background-color: var(--home-2-color);
   color: #fff;
   font-size: 0.875rem;
   font-weight: 400;
@@ -988,4 +963,20 @@ ul.primary-menu li a:hover {
   font-size: 0.9375rem;
   line-height: 1.73;
 }
-/* HOme-2 Css end */
+
+/* -------------------------------HOme-2 Css end------------------------- */
+
+/* -------------------------------Home-3 Css Start------------------------ */
+
+.container {
+  max-width: 1170px;
+}
+
+/* Hero-section-start */
+.hero-section {
+  background-image: linear-gradient(to end, #1b66da, #18b9e6);
+}
+
+/* Hero-section-End */
+
+/* -------------------------------Home-3 Css End------------------------ */
