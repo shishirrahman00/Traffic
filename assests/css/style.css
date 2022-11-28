@@ -61,17 +61,62 @@ h6 {
   color: #fff;
 }
 
-/* primary-menu */
-ul.primary-menu li a {
+/* primary-menu-start */
+
+ul.primary-menus li a {
   text-decoration: none;
-  display: inline-block;
-  color: #999;
-  padding: 15px;
+  color: #888888;
+  padding: 16px;
 }
 
-ul.primary-menu li a:hover {
+ul.primary-menus li a:hover {
   color: var(--primary-color);
 }
+
+/* ------Dropdown-menu-START----------- */
+
+ul.primary-menus li {
+  position: relative;
+}
+ul.primary-menus li:hover ul.dropdown {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+ul.primary-menus li ul.dropdown {
+  list-style: none;
+  position: absolute;
+  width: 250px;
+  background-color: #fbfbfb;
+  padding-left: 0;
+  top: 50%;
+  border: 2px solid #fbfbfb;
+  border-radius: 0.375rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s all;
+}
+
+ul.primary-menus li ul.dropdown li {
+  display: block;
+}
+
+ul.primary-menus li ul.dropdown li a {
+  display: block;
+  padding-left: 86px;
+}
+
+ul.primary-menus li ul.dropdown li:hover,
+ul.primary-menus li ul.dropdown li a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 0.375rem;
+}
+
+/* ------Dropdown-menu-END----------- */
+
+/* primary-menu-end */
 
 /* banner-section */
 
@@ -483,7 +528,7 @@ ul.primary-menu li a {
 }
 
 ul.primary-menu li a:hover {
-  color: var(--primary-color);
+  color: var(--home-2-color);
 }
 /* primary-menu-end */
 /* Seo-score-section-start */
@@ -831,8 +876,8 @@ ul.primary-menu li a:hover {
 .pricing-button button {
   display: block;
   width: 100%;
-  background-color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background-color: var(--home-2-color);
+  border: 1px solid var(--home-2-color);
   border-radius: 0.275rem;
   font-size: 0.875rem;
   color: #fff;
@@ -948,7 +993,7 @@ ul.primary-menu li a:hover {
 }
 .social-help ul li:hover a,
 .social-help ul li:hover a i {
-  color: #f04770;
+  color: var(--primary-color);
   transition: all 0.3s;
 }
 
@@ -967,10 +1012,6 @@ ul.primary-menu li a:hover {
 /* -------------------------------HOme-2 Css end------------------------- */
 
 /* -------------------------------Home-3 Css Start------------------------ */
-
-.container {
-  max-width: 1170px;
-}
 
 /* Hero-section-start */
 .hero-section {
