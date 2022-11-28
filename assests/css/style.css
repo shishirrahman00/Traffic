@@ -65,6 +65,7 @@ h6 {
 
 ul.primary-menus li a {
   text-decoration: none;
+  display: inline-block;
   color: #888888;
   padding: 16px;
 }
@@ -487,7 +488,7 @@ hr.first-hr {
 
 /*---------------------------------- HOme-2 Css start------------------- */
 
-.container {
+.container { */
   max-width: 1170px;
 }
 
@@ -529,7 +530,7 @@ ul.primary-menu li a {
 
 ul.primary-menu li a:hover {
   color: var(--home-2-color);
-}
+} 
 /* primary-menu-end */
 /* Seo-score-section-start */
 .seo-score-section {
@@ -1020,4 +1021,4 @@ ul.primary-menu li a:hover {
 
 /* Hero-section-End */
 
-/* -------------------------------Home-3 Css End------------------------ */
+-------------------------------Home-3 Css End------------------------
