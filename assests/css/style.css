@@ -2,6 +2,7 @@
   --body-color: #999;
   --primary-color: #f04770;
   --home-2-color: #2ecc71;
+  --home-3-color: #06d6a0;
 }
 
 body {
@@ -488,7 +489,7 @@ hr.first-hr {
 
 /*---------------------------------- HOme-2 Css start------------------- */
 
-.container { 
+.container {
   max-width: 1170px;
 }
 
@@ -530,7 +531,7 @@ ul.primary-menu li a {
 
 ul.primary-menu li a:hover {
   color: var(--home-2-color);
-} 
+}
 /* primary-menu-end */
 /* Seo-score-section-start */
 .seo-score-section {
@@ -1014,11 +1015,143 @@ ul.primary-menu li a:hover {
 
 /* -------------------------------Home-3 Css Start------------------------ */
 
+/* ----------default-button-start */
+.hero-btn-primary {
+  background-color: var(--home-3-color);
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 14px 40px;
+  line-height: 1.7;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+}
+
+.hero-btn-primary:hover {
+  color: #fff;
+}
+/* ----------default-button-end */
+
 /* Hero-section-start */
+
+/* ------header-part-start------- */
+
+header {
+  background: linear-gradient(
+      to right,
+      rgba(27, 102, 218, 0.8),
+      rgba(24, 185, 230, 0.8)
+    ),
+    url("../images/home-3-banner.png");
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul.hero-menu {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+ul.hero-menu li {
+}
+
+ul.hero-menu li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+
+.hero-button {
+  padding-left: 30px;
+}
+.hero-button span i {
+  font-size: 0.9375rem;
+  color: white;
+  cursor: pointer;
+}
+
+ul.hero-menu li a:hover,
+.hero-button span i:hover {
+  color: var(--home-3-color);
+}
+
+/* ----------header-part-end-----*/
+
 .hero-section {
-  background-image: linear-gradient(to end, #1b66da, #18b9e6);
+  padding: 204px 0 218px 0;
+}
+.hero-title {
+}
+
+.hero-title h1 {
+  font-size: 4.0625rem;
+  color: white;
+  line-height: 1.07;
+}
+.hero-title p {
+  font-size: 0.9375rem;
+  color: white;
+  line-height: 1.86;
+  margin-top: 26px;
+}
+
+.hero-play-button {
+  margin-top: 40px;
+}
+
+.hero-play-button button {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--home-3-color);
+  border-radius: 50%;
+  background-color: var(--home-3-color);
+}
+.hero-play-button button span i {
+  color: white;
+  font-size: 0.8rem;
 }
 
 /* Hero-section-End */
 
--------------------------------Home-3 Css End------------------------
+/* seo-analysis-start */
+.seo-analysis {
+}
+.seo-analysis-title {
+}
+.seo-analysis-title h3 {
+}
+.seo-analysis-title p {
+}
+.seo-form {
+}
+.seo-form form {
+}
+.seo-form form input {
+}
+
+.seo-analysis-description {
+}
+.seo-analysis-description h4 {
+  line-height: 1.08;
+}
+.seo-analysis-description p {
+  font-size: 0.937rem;
+  line-height: 1.86;
+}
+.seo-analysis-description button {
+}
+/* seo-analysis-end */
+
+/* -------------------------------Home-3 Css End------------------------ */
