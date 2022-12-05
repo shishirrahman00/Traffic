@@ -1038,7 +1038,7 @@ ul.primary-menu li a:hover {
 
 /* ------header-part-start------- */
 
-header {
+.header {
   background: linear-gradient(
       to right,
       rgba(27, 102, 218, 0.8),
