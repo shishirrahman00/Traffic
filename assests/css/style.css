@@ -1160,7 +1160,7 @@ ul.hero-menu li a:hover,
 }
 
 .wrapper {
-  margin-top: 120px;
+  padding-top: 120px;
 }
 
 .seo-analysis-description {
@@ -1181,8 +1181,6 @@ ul.hero-menu li a:hover,
 
 /* Seo-Service-section-Start */
 
-.seo-service-title {
-}
 .seo-service-title h3 {
   font-size: 1.5rem;
   line-height: 1.875rem;
@@ -1234,11 +1232,83 @@ ul.hero-menu li a:hover,
 
 .seo-service-card:hover {
   border: 2px solid var(--home-3-color);
+  border-radius: 0.275rem;
   cursor: pointer;
 }
 .seo-service-card:hover a {
   color: var(--home-3-color);
 }
 /* Seo-Service-section-End */
+
+/* Seo-Case-study-Scetion-Start */
+.seo-case-study {
+  padding-top: 116px;
+  padding-bottom: 120px;
+}
+
+.seo-case-study-text h3 {
+  line-height: 1.875;
+}
+
+.seo-case-study-text p {
+  font-size: 0.937rem;
+  line-height: 1.86;
+  margin-bottom: 80px;
+}
+
+.seo-case-study-image img {
+  width: 100%;
+  height: 300px;
+  border-radius: 0.275rem;
+}
+.seo-case-study-image {
+  position: relative;
+}
+
+.seo-case-study-hover-layer {
+  background-color: var(--home-3-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 0.275rem;
+}
+
+.seo-case-study-image:hover .seo-case-study-hover-layer {
+  visibility: visible;
+  opacity: 0.98;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.seo-case-study-hover-layer-body {
+  /* padding-top: 115px; */
+}
+.seo-case-study-hover-layer-body h5 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2.25;
+  margin-bottom: -18px;
+}
+.seo-case-study-hover-layer-body p {
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 3.2;
+  margin-bottom: 0;
+}
+.seo-case-study-hover-layer-body span {
+  color: #fff;
+  display: block;
+}
+
+/* Seo-Case-study-Scetion-End */
 
 /* -------------------------------Home-3 Css End------------------------ */
