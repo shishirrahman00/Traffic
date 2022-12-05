@@ -1127,21 +1127,44 @@ ul.hero-menu li a:hover,
 
 /* seo-analysis-start */
 .seo-analysis {
+  padding: 116px;
 }
 .seo-analysis-title {
 }
 .seo-analysis-title h3 {
+  font-size: 1.5rem;
+  line-height: 1.3;
 }
 .seo-analysis-title p {
+  font-size: 0.937rem;
+  line-height: 1.86;
+  margin-bottom: 42px;
 }
 .seo-form {
 }
+
 .seo-form form {
+  display: flex;
+  gap: 30px;
 }
+
 .seo-form form input {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid var(--body-color);
+  border-radius: 0.275rem;
+  outline: none;
+  opacity: 0.5;
+}
+.seo-form form button {
+}
+
+.wrapper {
+  margin-top: 120px;
 }
 
 .seo-analysis-description {
+  margin-left: 72px;
 }
 .seo-analysis-description h4 {
   line-height: 1.08;
@@ -1149,9 +1172,73 @@ ul.hero-menu li a:hover,
 .seo-analysis-description p {
   font-size: 0.937rem;
   line-height: 1.86;
+  margin-top: 32px;
 }
 .seo-analysis-description button {
+  margin-top: 16px;
 }
 /* seo-analysis-end */
+
+/* Seo-Service-section-Start */
+
+.seo-service-title {
+}
+.seo-service-title h3 {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  margin-bottom: 14px;
+}
+.seo-service-title p {
+  font-size: 0.9375rem;
+  line-height: 1.73;
+  margin-bottom: 94px;
+}
+
+.seo-service-card {
+  padding: 68px 12px 68px 12px;
+}
+.seo-service-card-header span {
+  font-size: 4.375rem;
+  font-weight: 600;
+  line-height: 0.4;
+  display: inline-block;
+  margin-bottom: 36px;
+  opacity: 0.3;
+}
+
+.seo-service-card-body {
+}
+.seo-service-card-body h4 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin-bottom: 22px;
+}
+.seo-service-card-body p {
+  font-size: 0.9375rem;
+  line-height: 1.73;
+}
+.seo-service-card-body a {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.73;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+}
+.seo-service-card-body a span {
+  font-size: 0.7rem;
+  margin-left: 8px;
+}
+
+.seo-service-card:hover {
+  border: 2px solid var(--home-3-color);
+  cursor: pointer;
+}
+.seo-service-card:hover a {
+  color: var(--home-3-color);
+}
+/* Seo-Service-section-End */
 
 /* -------------------------------Home-3 Css End------------------------ */
