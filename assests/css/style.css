@@ -1194,6 +1194,7 @@ ul.hero-menu li a:hover,
 
 .seo-service-card {
   padding: 68px 12px 68px 12px;
+  border: 2px solid white;
 }
 .seo-service-card-header span {
   font-size: 4.375rem;
@@ -1242,8 +1243,7 @@ ul.hero-menu li a:hover,
 
 /* Seo-Case-study-Scetion-Start */
 .seo-case-study {
-  padding-top: 116px;
-  padding-bottom: 120px;
+  padding: 116px 0 120px 0;
 }
 
 .seo-case-study-text h3 {
@@ -1310,5 +1310,152 @@ ul.hero-menu li a:hover,
 }
 
 /* Seo-Case-study-Scetion-End */
+
+/* Photo-blog-section-Start */
+.photo-blog {
+  padding-bottom: 122px;
+}
+
+.seo-blog-photo-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 0.275rem;
+  box-shadow: 0px 2px 10px #e8e8e8;
+}
+
+.seo-blog-card-body-1::before {
+  content: "15 May, 2017, 9:07 am";
+  display: block;
+  font-size: 0.875rem;
+  line-height: 3.2;
+}
+
+.seo-blog-card-body-2::before {
+  content: "25 May, 2017 , 9:07 am";
+  display: block;
+  font-size: 0.875rem;
+  line-height: 3.2;
+}
+.seo-blog-card-body-3::before {
+  content: "30 May, 2017 , 9:07 am";
+  display: block;
+  font-size: 0.875rem;
+  line-height: 3.2;
+}
+
+.seo-blog-card-body {
+  padding: 36px 16px 26px 18px;
+}
+
+.seo-blog-card-body h5 {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+.seo-blog-card-body p {
+  font-size: 0.9375rem;
+  line-height: 1.86;
+}
+/* Photo-blog-section-End */
+
+/* Marketing-site-Start */
+
+.marketing-site {
+  background: linear-gradient(
+      to right,
+      rgba(27, 102, 218, 0.8),
+      rgba(24, 185, 230, 0.8)
+    ),
+    url("../images/home-3-marketing-site-banner.png");
+}
+
+.marketing-site-wrapper {
+  padding: 120px 0px 114px 0;
+}
+
+.marketing-site-title {
+}
+.marketing-site-title h3 {
+  font-size: 2.5rem;
+  line-height: 0.65;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.marketing-site-title p {
+  font-size: 1.125rem;
+  line-height: 1.44;
+  color: #fff;
+  margin-bottom: 42px;
+}
+/* Marketing-site-End */
+
+/* Footer-content-Start */
+.footer {
+  padding: 36px 0 38px 0;
+}
+
+.footer-services-menu {
+}
+.footer-services-menu ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 30px;
+  padding-top: 18px;
+}
+
+.footer-services-menu ul li a {
+  text-decoration: none;
+  color: #888888;
+  font-weight: 500;
+}
+
+.footer-services-menu ul li:hover a {
+  color: var(--home-3-color);
+  transition: all 0.2s;
+}
+
+.social-help-footer {
+}
+.social-help-footer ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 18px;
+  padding-top: 18px;
+}
+
+.social-help-footer ul li a i {
+  text-decoration: none;
+  color: #373737;
+  font-weight: 900;
+}
+
+.social-help-footer ul li:hover a i {
+  color: var(--home-3-color);
+  transition: all 0.2s;
+}
+/* Footer-content-End */
+
+/* Footer-section-start */
+.Footer {
+  background-color: #fbfbfb;
+  padding: 20px 0 0;
+}
+.copyright-text {
+}
+.help-section {
+}
+.help-section ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 18px;
+}
+.help-section ul li a {
+  text-decoration: none;
+  color: #888888;
+  font-weight: 500;
+}
+.help-section ul li:hover a {
+  color: var(--home-3-color);
+}
+/* Footer-section-End */
 
 /* -------------------------------Home-3 Css End------------------------ */
