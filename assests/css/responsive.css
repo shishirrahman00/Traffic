@@ -56,6 +56,9 @@
     text-align: center !important;
   }
 
+  .seo-blog-photo-card{
+    margin-bottom: 30px;
+  }
 }
 
 
@@ -93,6 +96,8 @@
     .help-section{
       text-align: end;
     }
+
+   
   
 }
 
@@ -130,6 +135,10 @@
   .social-help-footer,
   .help-section{
     text-align: end !important;
+  }
+
+  .seo-blog-photo-card{
+    margin-bottom: 0;
   }
 
 }
