@@ -59,6 +59,27 @@
   .seo-blog-photo-card{
     margin-bottom: 30px;
   }
+
+  ul.hero-menu{
+    background-color: #fff;
+    color: #222;
+    align-items: start;
+    padding: 16px 26px;
+    gap: 18px;
+  }
+
+  ul.hero-menu li a{
+    color: #222;
+    text-decoration: none;
+  }
+
+  .header-wrapper{
+    align-items: flex-start;
+  }
+
+  .hero-button{
+    margin-top: 26px;
+  }
 }
 
 
@@ -95,6 +116,25 @@
     .social-help-footer,
     .help-section{
       text-align: end;
+    }
+
+    ul.hero-menu{
+      background-color: #fff;
+      color: #222;
+      align-items: start;
+      padding: 16px 26px;
+      gap: 18px;
+    }
+
+    ul.hero-menu li a{
+      color: #222;
+    }
+
+    .header-wrapper{
+      align-items: flex-start;
+    }
+    .hero-button{
+      margin-top: 26px;
     }
 
    
@@ -142,6 +182,25 @@
     margin-bottom: 0;
   }
 
+  ul.hero-menu {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: transparent;
+  }
+  
+  ul.hero-menu li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9375rem;
+    font-weight: 400;
+  }
+
+  
+
 }
 
 @media (min-width: 1440px) {
@@ -153,10 +212,12 @@
     height: 50px;
     margin-right: 15px;
   }
+  
   .social-help-footer,
     .help-section{
       text-align: end !important;
     }
+
 }
 
 /*------------------------------------------------------------Home-3-End----------------------------------------  */
