@@ -105,6 +105,7 @@
 
   .seo-case-study-image-wrapper{
     grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
   }
 
   .seo-form form input {
@@ -144,6 +145,8 @@
 }
 
 @media (min-width: 1440px) {
+
+ 
 
   .seo-form form input {
     width: 310px;
