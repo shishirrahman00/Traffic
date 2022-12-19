@@ -1418,6 +1418,7 @@ ul.hero-menu li a:hover,
 /* Footer-content-End */
 
 /* Footer-section-start */
+
 .Footer {
   background-color: #fbfbfb;
   padding: 20px 0 0;
@@ -1428,14 +1429,117 @@ ul.hero-menu li a:hover,
   display: inline-flex;
   gap: 18px;
 }
+
 .help-section ul li a {
   text-decoration: none;
   color: #888888;
   font-weight: 500;
 }
+
 .help-section ul li:hover a {
   color: var(--home-3-color);
 }
+
 /* Footer-section-End */
 
-/* -------------------------------Home-3 Css End------------------------ */
+/* ------------------------------------Home-3 Css End------------------------ */
+
+/* ------------------------------------Home-4 Css Start------------------------ */
+/* -----Hero-area-start------ */
+
+/* Hero-NAV-start */
+.hero-area {
+  background: url(../images/Home-4-banner-photo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  isolation: isolate;
+}
+
+.hero-area::after {
+  content: "";
+  position: absolute;
+  background-color: #073b4c;
+  z-index: -1;
+  inset: 0;
+  opacity: 25%;
+}
+
+.hero-nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-nav-wrapper .hero-button {
+  padding-left: 0;
+}
+
+/* Hero-NAV-End */
+
+.hero-area-title {
+  padding-top: 235px;
+}
+
+.hero-area-title h1 {
+  font-size: 2.875rem;
+  font-weight: 700;
+  line-height: 1.19;
+  color: #fff;
+}
+.hero-area-title p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.85;
+  color: #fff;
+  margin-top: 22px;
+  margin-bottom: 42px;
+}
+
+/* Hero-area-title-start */
+.hero-form {
+  padding-bottom: 262px;
+}
+.hero-form input {
+  width: 242px;
+  height: 50px;
+  background-color: #073b4c;
+  outline: none;
+  border: 1px solid #073b4c;
+  border-radius: 0.275rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.85;
+  color: #fff;
+  padding: 0 18px;
+  margin-right: 30px;
+}
+
+.hero-form input::placeholder {
+  color: #ffff;
+}
+
+/* Hero-area-title-end */
+
+/* -----Hero-area-end------ */
+
+/* Business-Grow-section-Start */
+.business-grow-title {
+  margin-left: 30px;
+}
+.business-grow-title h2 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.business-grow-title p {
+  font-size: 0.975rem;
+  font-weight: 300;
+  line-height: 1.85;
+}
+.business-grow-title a {
+}
+/* Business-Grow-section-End */
+
+/* ------------------------------------Home-4 Css End------------------------ */
