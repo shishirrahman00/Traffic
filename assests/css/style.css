@@ -732,6 +732,32 @@ ul.primary-menu li a:hover {
   margin-top: -7px;
 }
 
+.slider-section{
+  position: relative;
+}
+
+.tns-nav {
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  margin-left: -45px;
+}
+
+.tns-nav button {
+  width: 20px;
+  height: 10px;
+  border-radius: 0.275rem;
+  border: none;
+}
+
+button.tns-nav-active {
+  margin-right: 10px;
+  background-color: var(--primary-color);
+}
+button {
+  margin-right: 10px;
+}
+
 /* quotes-section-end */
 
 /* awesome-case-study-start */
@@ -1051,7 +1077,7 @@ ul.primary-menu li a:hover {
   background-size: cover;
 }
 
-ul.hero-menu {
+/* ul.hero-menu {
   display: flex;
   list-style: none;
   gap: 28px;
@@ -1065,11 +1091,23 @@ ul.hero-menu li a {
   text-decoration: none;
   font-size: 0.9375rem;
   font-weight: 400;
+} */
+
+.header-wrapper{
+  display: flex;
+  align-items: center;
+}
+.navbar-wrapper{
+  flex: 1 1 auto;
 }
 
 .hero-button {
   padding-left: 30px;
+  flex: none;
+  
 }
+
+
 .hero-button span i {
   font-size: 0.9375rem;
   color: white;
@@ -1088,10 +1126,11 @@ ul.hero-menu li a:hover,
 }
 
 .hero-title h1 {
-  font-size: 4.0625rem;
   color: white;
   line-height: 1.07;
 }
+
+
 .hero-title p {
   font-size: 0.9375rem;
   color: white;
@@ -1122,7 +1161,7 @@ ul.hero-menu li a:hover,
 
 /* seo-analysis-start */
 .seo-analysis {
-  padding: 116px;
+  padding-top: 116px;
 }
 
 .seo-analysis-title h3 {
@@ -1134,23 +1173,19 @@ ul.hero-menu li a:hover,
   line-height: 1.86;
   margin-bottom: 42px;
 }
-.seo-form {
-}
-
-.seo-form form {
-  display: flex;
-  gap: 30px;
-}
 
 .seo-form form input {
-  width: 300px;
-  padding: 12px;
-  border: 1px solid var(--body-color);
-  border-radius: 0.275rem;
+  width: 310px;
+  height: 50px;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
   outline: none;
-  opacity: 0.5;
-}
-.seo-form form button {
+  font-size: 14px;
+  font-weight: 300;
+  color: #222;
+  line-height: 1.71;
+  padding: 0 16px;
+  margin-right: 15px;
 }
 
 .wrapper {
@@ -1174,6 +1209,10 @@ ul.hero-menu li a:hover,
 /* seo-analysis-end */
 
 /* Seo-Service-section-Start */
+
+.seo-service{
+  padding-top: 118px;
+}
 
 .seo-service-title h3 {
   font-size: 1.5rem;
@@ -1247,6 +1286,12 @@ ul.hero-menu li a:hover,
   line-height: 1.86;
   margin-bottom: 80px;
 }
+
+.seo-case-study-image-wrapper{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
 
 .seo-case-study-image img {
   width: 100%;
@@ -1324,6 +1369,7 @@ ul.hero-menu li a:hover,
   font-size: 0.875rem;
   line-height: 3.2;
 }
+
 .seo-blog-card-body-3::before {
   content: "30 May, 2017 , 9:07 am";
   display: block;
@@ -1340,10 +1386,13 @@ ul.hero-menu li a:hover,
   line-height: 1.5;
   margin-bottom: 18px;
 }
+
 .seo-blog-card-body p {
   font-size: 0.9375rem;
   line-height: 1.86;
 }
+
+
 /* Photo-blog-section-End */
 
 /* Marketing-site-Start */
@@ -1362,8 +1411,6 @@ ul.hero-menu li a:hover,
 }
 
 .marketing-site-title h3 {
-  font-size: 2.5rem;
-  line-height: 0.65;
   color: #fff;
   margin-bottom: 24px;
 }

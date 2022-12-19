@@ -19,46 +19,58 @@
 
     <link rel="stylesheet" href="assests/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assests/css/style.css" />
+    <link rel="stylesheet" href="./assests/css/responsive.css">
   </head>
   <body>
     <!-- Hero-section-start -->
     <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-light main-header">
-        <div class="container">
-          <a class="navbar-brand" href="#"
-            ><img
-              style="width: 60px"
-              src="./assests/images/Logo.png"
-              alt="logo"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto hero-menu">
-              <li><a href="#">Homes</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Pages</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Case Studies</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-
-            <div class="hero-button align-items-center">
-              <span><i class="fa-solid fa-magnifying-glass"></i></span>
-            </div>
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="navbar-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light main-header">
+        
+              <a class="navbar-brand" href="#"
+              ><img
+                style="width: 60px"
+                src="./assests/images/Logo.png"
+                alt="logo"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto hero-menu">
+                <li><a href="#">Homes</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>  
+        
+            </nav>
           </div>
+
+          <div class="hero-button align-items-center">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          </div>
+          
         </div>
-      </nav>
+
+      </div>
+
       <section class="hero-section">
         <div class="container">
           <div class="hero-title text-center">
@@ -222,7 +234,7 @@
 
     <!-- Seo-Case-study-Scetion-Start -->
     <section class="seo-case-study">
-      <div class="container">
+     
         <div class="row">
           <div class="col-md-12">
             <div class="seo-case-study-text text-center">
@@ -236,9 +248,8 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-3">
-            <div class="seo-case-study-image">
+          <div class="seo-case-study-image-wrapper">
+          <div class="seo-case-study-image">
               <img src="./assests/images/home-3-card-1.png" alt="photo" />
               <div class="seo-case-study-hover-layer text-center">
                 <div class="seo-case-study-hover-layer-body">
@@ -247,11 +258,9 @@
                   <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>
                 </div>
               </div>
-            </div>
           </div>
-
-          <div class="col-md-3">
-            <div class="seo-case-study-image">
+            
+          <div class="seo-case-study-image">
               <img src="./assests/images/home-3-card-2.png" alt="photo" />
               <div class="seo-case-study-hover-layer text-center">
                 <div class="seo-case-study-hover-layer-body">
@@ -260,11 +269,9 @@
                   <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>
                 </div>
               </div>
-            </div>
           </div>
-
-          <div class="col-md-3">
-            <div class="seo-case-study-image">
+            
+          <div class="seo-case-study-image">
               <img src="./assests/images/home-3-card-3.png" alt="photo" />
               <div class="seo-case-study-hover-layer text-center">
                 <div class="seo-case-study-hover-layer-body">
@@ -273,11 +280,9 @@
                   <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>
                 </div>
               </div>
-            </div>
           </div>
-
-          <div class="col-md-3">
-            <div class="seo-case-study-image">
+          
+          <div class="seo-case-study-image">
               <img src="./assests/images/home-3-card-4.png" alt="photo" />
               <div class="seo-case-study-hover-layer text-center">
                 <div class="seo-case-study-hover-layer-body">
@@ -287,9 +292,23 @@
                 </div>
               </div>
             </div>
+        
+          <div class="seo-case-study-image">
+            <img src="./assests/images/home-3-card-1.png" alt="photo" />
+            <div class="seo-case-study-hover-layer text-center">
+              <div class="seo-case-study-hover-layer-body">
+                <h5>Project Amenia</h5>
+                <p>Design</p>
+                <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      
+        
+
+        
+      
     </section>
     <!-- Seo-Case-study-Scetion-End -->
 
@@ -308,8 +327,8 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4 ">
             <div class="seo-blog-photo-card">
               <div class="seo-blog-card-image">
                 <img
@@ -328,7 +347,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <div class="seo-blog-photo-card">
               <div class="seo-blog-card-image">
                 <img
@@ -349,7 +368,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <div class="seo-blog-photo-card">
               <div class="seo-blog-card-image">
                 <img
@@ -476,5 +495,7 @@
       </div>
     </section>
     <!-- Footer-END -->
+
+    <script src="./assests/js/bootstrap.min.js"></script>
   </body>
 </html>
