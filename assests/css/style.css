@@ -1639,14 +1639,50 @@ ul.hero-menu li a:hover,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-height: 300px;
+  padding: 105px 0 96px 0;
 }
+
+.video-content-wrapper {
+  margin-left: 550px;
+}
+
+.video-content-wrapper h3 {
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 0.67;
+  margin-bottom: 28px;
+}
+
+.video-content-wrapper p {
+  color: #fff;
+  font-size: 0.93rem;
+  line-height: 1.7;
+}
+
+.video-content-wrapper span {
+  background-color: var(--home-4-color);
+  height: 70px;
+  width: 70px;
+  border: 1px solid var(--home-4-color);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.video-content-wrapper span i {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
 /* Video-Section-End */
 
 /* feature-Content-start */
 
 .feature-content {
-  padding-bottom: 108px;
+  padding: 112px 0 108px 0;
 }
 
 .feature-content-key-section {
@@ -1769,20 +1805,39 @@ ul.hero-menu li a:hover,
   line-height: 1.73;
 }
 
-.testimonial-quotes {
+.testimonial-wrapper {
   padding-bottom: 120px;
+  margin-top: 60px;
+  margin-right: 178px;
 }
-.main-photo {
+
+.testimonial-quotes {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 190px;
-  margin-top: 36px;
+}
+.testimonial-photo-part img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
-.main-photo-title {
+.testimonial-text-part {
+  margin-left: 24px;
+  margin-top: 12px;
 }
 
+.testimonial-text-part span {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  font-weight: 700;
+  color: #373737;
+}
+.testimonial-text-part p {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  font-weight: 300;
+}
 /* testimonial-End */
 
 /* call-to-acion-Start */
@@ -1794,8 +1849,8 @@ ul.hero-menu li a:hover,
   background-position: center;
   position: relative;
   isolation: isolate;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
 .call-to-action::after {
   content: "";
