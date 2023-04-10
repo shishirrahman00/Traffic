@@ -1950,14 +1950,16 @@ ul.hero-menu li a:hover,
 }
 .banner-title {
 }
-.banner-title h3 {
+.banner-title h3,
+.banner--section h3 {
   color: #fff;
   font-size: 2.25rem;
   line-height: 0.72;
   font-weight: 700;
   margin-bottom: 26px;
 }
-.banner-title p {
+.banner-title p,
+.banner--section p {
   color: #fff;
   font-size: 1.375rem;
   line-height: 1.18;
@@ -2045,3 +2047,47 @@ ul.hero-menu li a:hover,
 /* service-card-section-End */
 
 /* ------------------------------------Services-1 Css END------------------------ */
+
+/* ------------------------------------Services-2 Css Start------------------------ */
+
+.banner--section {
+  background: url(../images/Services-2-banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  isolation: isolate;
+}
+
+.banner-section.banner--section::after {
+  content: "";
+  position: absolute;
+  background-color: #073b4c;
+  z-index: -1;
+  inset: 0;
+  opacity: 45%;
+}
+
+.marketing-footer-banner-photo {
+  background: url(../images/Services-2-footer-banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  isolation: isolate;
+  padding: 66px 0 60px;
+}
+.marketing-footer-banner-photo::after {
+  content: "";
+  position: absolute;
+  background-color: #073b4c;
+  z-index: -1;
+  inset: 0;
+  opacity: 5%;
+}
+
+.seo--services {
+  padding-bottom: 120px;
+}
+
+/* ------------------------------------Services-2 Css END------------------------ */ ;
