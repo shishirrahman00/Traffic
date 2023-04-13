@@ -2090,4 +2090,93 @@ ul.hero-menu li a:hover,
   padding-bottom: 120px;
 }
 
-/* ------------------------------------Services-2 Css END------------------------ */ ;
+/* ------------------------------------Services-2 Css END------------------------ */
+
+/* ------------------------------------Services-3 Css Start------------------------ */
+
+/* Banner-sectionss-Start */
+
+.banner-sectionss {
+  background: url(../images/Service-3-main-banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  isolation: isolate;
+}
+
+.banner-sectionss::after {
+  content: "";
+  position: absolute;
+  background-color: #073b4c;
+  z-index: -1;
+  inset: 0;
+  opacity: 45%;
+}
+/* Banner-sectionss-END */
+
+/* How-it-works-Start */
+
+.how-it-works {
+}
+
+.how-it-works-title {
+}
+
+.how-it-works-title h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.how-it-works-title p {
+  font-size: 0.9375rem;
+  line-height: 1.73;
+  margin-bottom: 16px;
+}
+
+.how-it-works-photo {
+  margin-left: 14px;
+}
+
+/* How-it-works-END */
+
+/* seo-case-study-start */
+.seo-cases--study {
+  padding-bottom: 0 !important;
+}
+
+/* seo-case-study-End */
+
+/* pricing-start */
+
+.pricing .pricing-padding-solve {
+  padding: 120px 0 0 0 !important;
+}
+
+.pricing--card {
+  border-color: #9999994f;
+}
+
+.pricing--card h1 {
+  color: var(--home-4-color);
+}
+
+.pricing--card:hover {
+  border-color: var(--home-4-color);
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.pricing--card:hover hr.first-hr {
+  border-color: var(--home-4-color);
+  opacity: 1;
+}
+
+.pricing--card .pricing-button .traffic-btn-primary {
+  background-color: var(--home-4-color) !important;
+}
+
+/* pricing-End */
+
+/* ------------------------------------Services-2 Css END------------------------ */
