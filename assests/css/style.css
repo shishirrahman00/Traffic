@@ -2179,4 +2179,32 @@ ul.hero-menu li a:hover,
 
 /* pricing-End */
 
-/* ------------------------------------Services-2 Css END------------------------ */
+/* ------------------------------------Services-3 Css END------------------------ */
+
+/* ------------------------------------Case-study-1 Css Start------------------------ */
+
+/* banner-sectionnn-start */
+
+.banner-sectionnn {
+  background: url(../images/Case-study-1-banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  isolation: isolate;
+}
+
+.banner-sectionnn::after {
+  content: "";
+  position: absolute;
+  background-color: #073b4c;
+  z-index: -1;
+  inset: 0;
+  opacity: 45%;
+}
+
+/* banner-sectionnn-End */
+
+/* Project-section-Start */
+/* Project-section-END */
+/* ------------------------------------Case-study-1 Css End ------------------------ */
