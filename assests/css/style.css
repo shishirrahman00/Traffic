@@ -123,7 +123,7 @@ ul.primary-menus li ul.dropdown li a:hover {
 
 /* banner-section */
 
-.banner-section {
+.banner-sectionsss {
   padding: 176px 0 156px 0;
 }
 
@@ -1931,6 +1931,10 @@ ul.hero-menu li a:hover,
 
 /* ------------------------------------Services-1 Css START------------------------ */
 /* Banner-start */
+
+.banner-section {
+  padding: 180px 0 160px 0;
+}
 .banner-section {
   background: url(../images/service-1-banner.png);
   background-size: cover;
